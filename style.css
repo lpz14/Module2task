@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 175%;
+}
+
+div {
+    border: 1px solid black;
+    position: relative;
+    background-color: gray;
+}
+
+p {
+    position: relative;
+    clear: right;
+}
+
+.foodtitle {
+    padding: 5px;
+    margin: 0px;
+    font-family: Georgia, serif;
+}
+
+
+.p1 {
+    border: 1.5px solid black;
+    text-align: center;
+    font-size: 125%;
+    width: 150px;
+    float: right;
+    padding: 5px;
+    margin: 0px;
+    font-family: Georgia, serif;
+    background-color: #E1656C;
+}
+
+.p2 {
+    border: 1.5px solid black;
+    text-align: center;
+    font-size: 125%;
+    width: 150px;
+    float: right;
+    padding: 5px;
+    margin: 0px;
+    font-family: Georgia, serif;
+    background-color: #8B0000;
+    color: white;
+}
+
+.p3 {
+    border: 1.5px solid black;
+    text-align: center;
+    font-size: 125%;
+    width: 150px;
+    float: right;
+    padding: 5px;
+    margin: 0px;
+    font-family: Georgia, serif;
+    background-color: #E4EA60;
+}
+
+section {
+    padding: 15px;
+    position: relative;
+}
+
+.row {
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .collg4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .colmd6 {
+        float: left;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .colmd12 {
+        float: left;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .colsm12 {
+        float: left;
+        width: 100%;
+    }
+}
